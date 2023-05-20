@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- developed by aishwarya agrahari-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aishwarya Portfolio </title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/smooth-scrollbar.css">
+    <link rel="stylesheet" href="assets/css/lightbox.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+<body class="home1-page">
+
+    <video class="body-overlay" muted autoplay loop>
+        <source src="assets/images/video1.mp4" type="video/mp4">
+    </video>
+
+    <div class="page-loader">
+        <div class="bounceball"></div>
+    </div>
+
+    <span class="icon-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </span>
+
+    <div class="global-color">
+        <span class="setting-toggle">
+            <i class="las la-cog"></i>
+        </span>
+        <div class="inner">
+            <div class="overlay"></div>
+            <div class="global-color-option">
+                <span class="close-settings">
+                    <i class="las la-times"></i>
+                </span>
+                <h2>Configuration</h2>
+                <div class="global-color-option-inner">
+                    <p>Colors</p>
+                    <div class="color-boxed">
+                        <a href="#" class="clr-active" onclick="color1();"></a>
+                        <a href="#" onclick="color2();"></a>
+                        <a href="#" onclick="color3();"></a>
+                        <a href="#" onclick="color4();"></a>
+                        <a href="#" onclick="color5();"></a>
+                        <a href="#" onclick="color6();"></a>
+                        <a href="#" onclick="color7();"></a>
+                        <a href="#" onclick="color8();"></a>
+                    </div>
+
+                    <p>THREE DIMENSIONAL SHAPES</p>
+                    <ul class="themes">
+                        <li class="active"><a href="home1.html">Earth Lines Sphere</a></li>
+                        <li><a href="home2.html">3D Abstract Ball</a></li>
+                        <li><a href="home3.html">Water Waves</a></li>
+                        <li><a href="home4.html">Liquids Wavy</a></li>
+                        <li><a href="home6.html">Solid Color</a></li>
+                        <li><a href="home5.html">Simple Strings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive-sidebar-menu">
+        <div class="overlay"></div>
+        <div class="sidebar-menu-inner">
+            <div class="menu-wrap">
+                <p>Menu</p>
+                <ul class="menu scroll-nav-responsive d-flex">
+                    <li>
+                        <a class="scroll-to" href="#home">
+                            <i class="las la-home"></i> <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#about">
+                            <i class="lar la-user"></i> <span>About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#resume">
+                            <i class="las la-briefcase"></i> <span>Resume</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#services">
+                            <i class="las la-stream"></i> <span>Services</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#skills">
+                            <i class="las la-shapes"></i> <span>Skills</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#portfolio">
+                            <i class="las la-grip-vertical"></i> <span>Portfolios</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#testimonial">
+                            <i class="lar la-comment"></i> <span>Testimonial</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#contact">
+                            <i class="las la-envelope"></i> <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sidebar-social">
+                <p>Social</p>
+                <ul class="social-links d-flex align-items-center">
+                    <li>
+                        <a href="#"><i class="lab la-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="lab la-dribbble"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="lab la-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <ul class="menu scroll-nav d-flex">
+        <li>
+            <a class="scroll-to" href="#home">
+                <span>Home</span> <i class="las la-home"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#about">
+                <span>About</span> <i class="lar la-user"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#resume">
+                <span>Resume</span> <i class="las la-briefcase"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#services">
+                <span>Services</span> <i class="las la-stream"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#skills">
+                <span>Skills</span> <i class="las la-shapes"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#portfolio">
+                <span>Portfolios</span> <i class="las la-grip-vertical"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#testimonial">
+                <span>Testimonial</span> <i class="lar la-comment"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#contact">
+                <span>Contact</span> <i class="las la-envelope"></i>
+            </a>
+        </li>
+    </ul>
+
+    <div class="left-sidebar">
+        <div class="sidebar-header d-flex align-items-center justify-content-between">
+            <!-- <img src="assets/images/logo.png" alt="Logo"> -->
+            <span class="designation">Full Stack Developer</span>
+        </div>
+        <img class="me" src="aish.jpeg" alt="Me">
+        <h2 class="email">Aishwarya Agrahari</h2>
+        <h2 class="address">Full Stack Wed Developer </h2>
+        <p class="copyright">&copy; 2022 Aishwarya. All Rights Reserved</p>
+        <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
+            <li>
+                <a href="#"><i class="lab la-twitter"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="lab la-dribbble"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="lab la-instagram"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="lab la-github"></i></a>
+            </li>
+        </ul>
+        <a href="#" class="theme-btn">
+            <i class="las la-envelope"></i> Hire Me!
+        </a>
+    </div>
+
+    <main class="drake-main">
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+
+                <div class="left-sidebar">
+                    <div class="sidebar-header d-flex align-items-center justify-content-between">
+                        <!-- <img src="assets/images/logo.png" alt="Logo"> -->
+                        <span class="designation">Full Stack Developer</span>
+                    </div>
+                    <img class="me" src="aish.jpeg" alt="Me">
+                    <h2 class="email">Aishwarya Agrahari</h2>
+                    <h2 class="address">Full Stack Web Developer</h2>
+                    <p class="copyright">&copy; 2022 Aishwarya. All Rights Reserved</p>
+                    <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
+                        <li>
+                            <a href="#"><i class="lab la-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="lab la-dribbble"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="lab la-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="lab la-github"></i></a>
+                        </li>
+                    </ul>
+                    <a href="#" class="theme-btn">
+                        <i class="las la-envelope"></i> Hire Me!
+                    </a>
+                </div>
+
+                <section class="hero-section page-section scroll-to-page" id="home">
+
+                    <div class="custom-container">
+                        <div class="hero-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-home"></i> Introduce
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Aishwarya Agrahari<span>Full stack Web Developer</span></h1>
+                            </div>
+                            <p class="scroll-animation" data-animation="fade_from_bottom">I design and code beautifully simple things and i love what i do. Just simple like that! Experiencend Wed Developer with a demonstrated hiatory of working in the web and app industry. skilled in PHP, HTML, Js, Bootstrap, Emails, Web Design, and CSS <i class="fa fa-history " aria-hidden="true"></i></p>
+                            <a href="#portfolio" 
+                                class="go-to-project-btn scroll-to scroll-animation" 
+                                data-animation="rotate_up">
+                                <img src="assets/images/round-text.png" alt="Rounded text">
+                                <i class="las la-arrow-down"></i>
+                            </a>
+        
+                            <div class="facts d-flex">
+                                <div class="left scroll-animation" data-animation="fade_from_left">
+                                    <h1>1</h1>
+                                    <p>Years of <br>Experience</p>
+                                </div>
+                                <div class="right scroll-animation" data-animation="fade_from_right">
+                                    <h1>182+</h1>
+                                    <p>projects completed on <br>15 countries</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        
+                <section class="about-area page-section scroll-to-page" id="about">
+                    <div class="custom-container">
+                        <div class="about-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="lar la-user"></i> About
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">App developer and programmer with grasp of java..<br>,<span>seeking to leverage acquired academic knowledge to practicual use.</span></h1>
+                            </div>
+                            <p class="scroll-animation" data-animation="fade_from_bottom">Experienced web developer with a demonstrated history of working in the web and app industry.
+                                                                                          Skilled in PHP, HTML, JS, Bootstrap, My-sql, Web design, and CSS.
+                                                                                          Strong engineeing professional with a Bachelor of Technology in CSE.</p>
+                        </div>
+                    </div>
+                </section>
+        
+        
+                <section class="resume-area page-section scroll-to-page" id="resume">
+                    <div class="custom-container">
+                        <div class="resume-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-briefcase"></i> Resume
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Education & <span>Experience</span></h1>
+                            </div>
+        
+                            <div class="resume-timeline">
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">2022 - Present</span>
+                                    <h2>Web And App Developer</h2>
+                                    <p>Freelancer </p>
+                                    <h2>Intern Research Analyst</h2>
+                                    <p>Safa Tech </p>
+                                </div>
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">2021 - 2025</span>
+                                    <h2>Bechelor Of Technology in Computer Science</h2>
+                                    <p>Lakhmi Chand Institute Of Technology Bilaspur CG</p>
+                                    <h2>Frontend Developer</h2>
+                                    <p>Internship</p>
+                                </div>
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">2019 - 2020</span>
+                                    <h2>Class 12 - CGBSE Board </h2>
+                                    <p>The New India Public School Bilaspur CG </p>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                </section>
+        
+        
+                <section class="services-area page-section scroll-to-page" id="services">
+                    <div class="custom-container">
+                        <div class="services-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-stream"></i> Services
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">My <span>Specializations</span></h1>
+                            </div>
+        
+                            <div class="services-items">
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-bezier-curve"></i>
+                                    <h2>Website Design</h2>
+                                    <p>I created digital products with unique ideas use Figma & Framer</p>
+                                    <span class="projects">24 Projects</span>
+                                </div>
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-code"></i>
+                                    <h2>Development</h2>
+                                    <p>I build website go live with Framer, Webflow or WordPress</p>
+                                    <span class="projects">126 Projects</span>
+                                </div>
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-bezier-curve"></i>
+                                    <h2>SEO/Marketing</h2>
+                                    <p>Increase the traffic for your website with SEO optimized</p>
+                                    <span class="projects">8 Projects</span>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                </section>
+        
+        
+                
+        
+        
+                
+        
+        
+              
+        
+        
+                
+
+
+                <section class="contact-area page-section scroll-content" id="contact">
+                    <div class="custom-container">
+                        <div class="contact-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-dollar-sign"></i> contact
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Let's Work <span>Together!</span></h1>
+                            </div>
+                            <h3 class="scroll-animation" data-animation="fade_from_bottom">hello@drake.design</h3>
+                            <p id="required-msg">* Marked fields are required to fill.</p>
+
+                            <form class="contact-form scroll-animation" data-animation="fade_from_bottom" method="POST" action="https://wpriverthemes.com/HTML/drake/mailer.php">
+                                <div class="alert alert-success messenger-box-contact__msg" style="display: none" role="alert">
+                                    Your message was sent successfully.
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="full-name">full Name <sup>*</sup></label>
+                                            <input type="text" name="full-name" id="full-name" placeholder="Your Full Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="email">Email <sup>*</sup></label>
+                                            <input type="email" name="email" id="email" placeholder="Your email adress">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="phone-number">phone <span>(optional)</span></label>
+                                            <input type="text" name="phone-number" id="phone-number" placeholder="Your number phone">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="subject">subject <sup>*</sup></label>
+                                            <select name="subject" id="subject">
+                                                <option value="">Select a subject</option>
+                                                <option value="subject1">Subject 1</option>
+                                                <option value="subject2">Subject 2</option>
+                                                <option value="subject3">Subject 3</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <label for="budget">your budget <span>(optional)</span></label>
+                                            <input type="number" name="budget" id="budget" placeholder="A range budget for your project">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <label for="message">message</label>
+                                            <textarea name="message" id="message" placeholder="Wrire your message here ..."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group upload-attachment">
+                                            <div>
+                                                <label for="upload-attachment">
+                                                    <i class="las la-cloud-upload-alt"></i> add an attachment
+                                                    <input type="file" name="file" id="upload-attachment">
+                                                </label>
+                                                
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group submit-btn-wrap">
+                                            <button class="theme-btn" name="submit" type="submit" id="submit-form">send message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <script src="assets/js/lightbox.min.js"></script>
+    
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/ajax-form.js"></script>
+    <script src="assets/js/color.js"></script>
+</body>
+
+<!-- developed by aryan agney-->
+</html>
