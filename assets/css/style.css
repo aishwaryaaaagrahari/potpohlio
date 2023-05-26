@@ -678,7 +678,7 @@ main.drake-main {
 .left-sidebar > img.me {
     border-radius: 30px;
     display: block;
-    margin-bottom: 56px;
+    margin-bottom: 10px;
 }
 .left-sidebar .sidebar-header {
     margin-bottom: 65px;
@@ -932,13 +932,15 @@ body .body-overlay {
 .services-items .service-item {
     border: 1px solid #565656;
     border-radius: 20px;
+    width: 28%;
+    margin: 10px;
     transition: .3s;
     position: relative;
     padding: 44px 48px 41px 48px;
     margin-bottom: 10px;
 }
 .services-items .service-item:last-child {
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
 }
 .services-items .service-item h2 {
     font-size: 24px;
